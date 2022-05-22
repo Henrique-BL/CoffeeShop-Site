@@ -54,8 +54,7 @@ p{
 }
 hr{
     width: 150px;
-    margin-bottom: 25px;
-    margin-left: 100px;
+    margin: 0 auto;
 }
 
 
@@ -123,8 +122,7 @@ nav ul li a{
 
 /* Sessão Chamativo */
 #Chamativo{
-    height: 350px;
-    overflow:visible
+    height: 600px;
 }
 
 .Bloco1{
@@ -138,27 +136,35 @@ nav ul li a{
 }
 
 .Bloco1, .Bloco2{
-    height: inherit;
+    height: 300px;
     padding: 0px 10%;
 }
-/* Sessão Cardapio */
+
+ /* Sessão Cardapio  * */
 #Cardapio{
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    height: 500px;
     background: url(img/Fundo2.jpg);
-    background-position: top;
     background-size: cover;
+    background-position-x: center;
     color:#f5f0ed ;
 }
 .TextoCardapio{
     padding: 50px 0px;
+    margin-bottom: 50px;
 
 }
 
 .BotaoCardapio a{
+    display: inline-block;
+    width: 80%;
     text-decoration: none;
-    color:#f5f0ed ;
+    color:#f5f0ed;
+
     border: 3px solid white;
     padding: 10px;
 }
-
-/* Cardapio */
