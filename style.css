@@ -57,6 +57,20 @@ hr{
     margin: 0 auto;
 }
 
+.Bloco1{
+    background-color: #d03b40;
+    color: #f5f0ed ; 
+}
+.Bloco2{
+    background-color:#ded6c0;
+    color: #d03b40;
+    
+}
+.Bloco3{
+    background-color: #3c3c3b;
+    color: #f5f0ed;
+}
+
 
 /* Mobile - Portrait */
 /* Cabeçalho */
@@ -125,16 +139,6 @@ nav ul li a{
     height: 600px;
 }
 
-.Bloco1{
-    background-color: #d03b40;
-    color: #f5f0ed ; 
-}
-.Bloco2{
-    background-color:#ded6c0;
-    color: #d03b40;
-    
-}
-
 .Bloco1, .Bloco2{
     height: 300px;
     padding: 0px 10%;
@@ -168,8 +172,10 @@ nav ul li a{
 #Detalhes{
     background-color: #f5f0ed;
     color: #3c3c3b;
+    padding-bottom: 50px;
 
 }
+
 .TextoSobre h2{
     text-align:justify;
 }
@@ -182,4 +188,17 @@ nav ul li a{
 .Icone img{
     width: 90px;
     height: 90px;
+}
+/* Rodapé */
+.Bloco2  a{
+    text-decoration: underline;
+    color: #d03b40;
+}
+.Bloco1  a{
+    text-decoration: underline;
+    color:#f5f0ed;
+}
+.Bloco3{
+    padding: 15px;
+    text-align: justify;
 }
