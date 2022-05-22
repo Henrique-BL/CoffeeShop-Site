@@ -142,11 +142,6 @@ nav ul li a{
 
  /* Sessão Cardapio  * */
 #Cardapio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
     height: 500px;
     background: url(img/Fundo2.jpg);
     background-size: cover;
@@ -167,4 +162,24 @@ nav ul li a{
 
     border: 3px solid white;
     padding: 10px;
+}
+
+/* Detalhes */
+#Detalhes{
+    background-color: #f5f0ed;
+    color: #3c3c3b;
+
+}
+.TextoSobre h2{
+    text-align:justify;
+}
+.TextoSobre p {
+    text-align: justify;
+}
+.Icone{
+    padding: 50px 0px 10px 0px;
+}
+.Icone img{
+    width: 90px;
+    height: 90px;
 }
