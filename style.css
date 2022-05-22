@@ -26,6 +26,7 @@ body{
 /* .Menu{ margin: 0 auto;} */
 .Container{
     height: inherit; 
+    
 }
 .Flex{
    display: flex;
@@ -120,3 +121,44 @@ nav ul li a{
 }
 
 
+/* Sessão Chamativo */
+#Chamativo{
+    height: 350px;
+    overflow:visible
+}
+
+.Bloco1{
+    background-color: #d03b40;
+    color: #f5f0ed ; 
+}
+.Bloco2{
+    background-color:#ded6c0;
+    color: #d03b40;
+    
+}
+
+.Bloco1, .Bloco2{
+    height: inherit;
+    padding: 0px 10%;
+}
+/* Sessão Cardapio */
+#Cardapio{
+    height: 400px;
+    background: url(img/Fundo2.jpg);
+    background-position: top;
+    background-size: cover;
+    color:#f5f0ed ;
+}
+.TextoCardapio{
+    padding: 50px 0px;
+
+}
+
+.BotaoCardapio a{
+    text-decoration: none;
+    color:#f5f0ed ;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+/* Cardapio */
